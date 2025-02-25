@@ -1,8 +1,10 @@
 document.addEventListener("DOMContentLoaded"),function(){
-    img1 = document.querySelector("#zanimg");
-    img1.addEventListener(onmouseover=pasa());
 
+    
     function pasa(){
-        document.querySelector("#zanimg").onmouseover(b)
+        document.querySelector("#prin").style.background = "red";
     }
+    let btn1 = document.querySelector("#btn1").addEventListener("click",function(){
+        prin = document.querySelector("#prin").style.background = "red";
+    })
 }
